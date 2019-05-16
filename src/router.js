@@ -21,6 +21,28 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/spartahack",
+      name: "spartahack",
+
+      component: () =>
+          import("./views/SpartaHack.vue")
+
+    },
+    {
+      path: "/protips",
+      name: "protips",
+
+      component: () =>
+          import("./views/pro-tips.vue")
+    },
+    {
+      path: "/github",
+      name: "github",
+
+      component: () =>
+          import("./views/GitHub.vue")
     }
   ]
 });
