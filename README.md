@@ -1,4 +1,6 @@
-# untitled
+# My Attempt at a Vue Site
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5e7579da-ce62-4fc4-af9b-15cb8bf936ed/deploy-status)](https://app.netlify.com/sites/suspicious-fermi-5fbcaa/deploys)
 
 ## Project setup
 ```
