@@ -2,6 +2,8 @@
     <div>
         <p>Repositories grabbed: {{ repositoriesCount }}</p>
     </div>
+
+
 </template>
 
 <script>
