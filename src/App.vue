@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-app class="grey lighten-4">
+    <v-app dark>
       <Navbar />
 
       <!--    <v-toolbar app>-->
@@ -33,13 +33,11 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
 import Navbar from "@/components/Navbar";
 import VFooter from "@/components/VFooter";
 export default {
   name: "App",
   components: {
-    HelloWorld,
     Navbar,
     VFooter
   },

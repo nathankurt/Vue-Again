@@ -1,6 +1,7 @@
 <template>
 
     <div class="protips">
+
     <h1>Pro-Tips</h1>
 
     <ul>

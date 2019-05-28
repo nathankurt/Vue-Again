@@ -1,10 +1,10 @@
 <template>
   <nav>
-    <v-toolbar app dark>
+    <v-toolbar app dark flat>
       <v-toolbar-title class="text-uppercase grey--text">
         <span class="font-weight-light">Nate Kurt</span>
       </v-toolbar-title>
-      <v-btn v-for="link in links" :key="link.name" router :to="link.route">
+      <v-btn flat v-for="link in links" :key="link.name" router :to="link.route">
         {{ link.text }}
       </v-btn>
       <v-spacer></v-spacer>
@@ -29,7 +29,7 @@ export default {
       { text: "About Me", name: "about", route: "/about" },
       { text: "SpartaHack", name: "spartahack", route: "/spartahack" },
       { text: "Pro-Tips", name: "protips", route: "/protips" },
-      { text: "Nate's GitHub", name: "github", route: "/github" }
+      //{ text: "Nate's GitHub", name: "github", route: "/github" }
     ],
     icons: [
       { name: "fab fa-github", link: "https://github.com/nathankurt/Vue-Again" }

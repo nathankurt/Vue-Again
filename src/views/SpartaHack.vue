@@ -1,6 +1,5 @@
-<template lang="pug">
-    .spartahack
-        h1 hello
+<template>
+    <h1>Hello</h1>
 </template>
 
 <script>
