@@ -1,34 +1,41 @@
 <template>
   <div id="app">
-  <v-app class="grey lighten-4">
-    <Navbar />
-<!--    <v-toolbar app>-->
-<!--      <v-toolbar-title class="headline text-uppercase">-->
-<!--        <span>Vuetify</span>-->
-<!--        <span class="font-weight-light">MATERIAL DESIGN</span>-->
-<!--      </v-toolbar-title>-->
-<!--      <v-spacer></v-spacer>-->
-<!--      <v-btn-->
-<!--        flat-->
-<!--        href="https://github.com/vuetifyjs/vuetify/releases/latest"-->
-<!--        target="_blank"-->
-<!--      >-->
-<!--        <span class="mr-2">Latest Release</span>-->
-<!--      </v-btn>-->
-<!--    </v-toolbar>-->
+    <v-app class="grey lighten-4">
+      <Navbar />
 
-    <v-content>
-      <router-view />
-    </v-content>
-    <VFooter />
-  </v-app>
+      <!--    <v-toolbar app>-->
+      <!--      <v-toolbar-title class="headline text-uppercase">-->
+      <!--        <span>Vuetify</span>-->
+      <!--        <span class="font-weight-light">MATERIAL DESIGN</span>-->
+      <!--      </v-toolbar-title>-->
+      <!--      <v-spacer></v-spacer>-->
+      <!--      <v-btn-->
+      <!--        flat-->
+      <!--        href="https://github.com/vuetifyjs/vuetify/releases/latest"-->
+      <!--        target="_blank"-->
+      <!--      >-->
+      <!--        <span class="mr-2">Latest Release</span>-->
+      <!--      </v-btn>-->
+      <!--    </v-toolbar>-->
+
+      <v-content>
+        <v-container fluid fill-height>
+          <v-layout justify-center align-center>
+            <v-flex shrink>
+              <router-view />
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </v-content>
+      <VFooter />
+    </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import Navbar from '@/components/Navbar'
-import VFooter from '@/components/VFooter';
+import HelloWorld from "./components/HelloWorld";
+import Navbar from "@/components/Navbar";
+import VFooter from "@/components/VFooter";
 export default {
   name: "App",
   components: {
@@ -36,13 +43,12 @@ export default {
     Navbar,
     VFooter
   },
-  data () {
+  data() {
     return {
       //
-    }
-  },
-
-}
+    };
+  }
+};
 </script>
 
 <!--<template>-->
@@ -75,10 +81,8 @@ export default {
 <!--  }-->
 <!--</style>-->
 
-
 <!--<script>-->
 <!--  import Navbar from '@/components/Navbar'-->
-
 
 <!--  export default {-->
 <!--    name: 'App',-->
