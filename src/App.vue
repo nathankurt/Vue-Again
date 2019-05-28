@@ -1,4 +1,5 @@
 <template>
+  <div id="app">
   <v-app class="grey lighten-4">
     <Navbar />
 <!--    <v-toolbar app>-->
@@ -17,16 +18,17 @@
 <!--    </v-toolbar>-->
 
     <v-content>
-      <HelloWorld/>
+      <router-view />
     </v-content>
   </v-app>
+  </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
 import Navbar from '@/components/Navbar';
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
     Navbar
@@ -35,7 +37,8 @@ export default {
     return {
       //
     }
-  }
+  },
+
 }
 </script>
 

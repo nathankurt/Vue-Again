@@ -22,11 +22,6 @@
     </div>
 </template>
 
-<!--<script>-->
-<!--    export default {-->
-<!--        name: "pro-tips"-->
-<!--    }-->
-<!--</script>-->
 
 <style scoped>
 
