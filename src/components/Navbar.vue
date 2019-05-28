@@ -1,6 +1,6 @@
 <template>
     <nav>
-       <v-toolbar app>
+       <v-toolbar app dark>
             <v-toolbar-title class="text-uppercase grey--text">
                 <span class="font-weight-light">Nate Kurt</span>
             </v-toolbar-title>

@@ -10,12 +10,14 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
+    "vue-awesome": "^3.5.3",
     "vue-github-api": "^0.1.7",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.3",
     "vuetify": "^1.5.5"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
