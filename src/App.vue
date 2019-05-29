@@ -49,15 +49,7 @@ export default {
 };
 </script>
 
-<!--<template>-->
-<!--  <div id="app">-->
-<!--    <v-app class="grey lighten-4">-->
-<!--      <Navbar />-->
-<!--    </v-app>-->
 
-<!--    <router-view />-->
-<!--  </div>-->
-<!--</template>-->
 
 <style lang="scss">
   #app {
@@ -77,17 +69,3 @@ export default {
     }
   }
 </style>
-
-<!--<script>-->
-<!--  import Navbar from '@/components/Navbar'-->
-
-<!--  export default {-->
-<!--    name: 'App',-->
-<!--    components: { Navbar },-->
-<!--    data () {-->
-<!--      return {-->
-
-<!--      }-->
-<!--    }-->
-<!--  }-->
-<!--</script>-->
