@@ -59,7 +59,7 @@ export default {
       },
       {
         id: 5,
-        name: "Documents :",
+        name: "GitHub Student Developer Pack (The Big One):",
         children: [
           {
             id: 6,
@@ -77,7 +77,7 @@ export default {
           },
           {
             id: 10,
-            name: "material2 :",
+            name: "Use SASS to make CSS less of a nightmare! :",
             children: [
               {
                 id: 11,
@@ -94,7 +94,7 @@ export default {
       },
       {
         id: 15,
-        name: "Downloads :",
+        name: "Use SASS to make CSS less of a nightmare!",
         children: [
           { id: 16, name: "October : pdf" },
           { id: 17, name: "November : pdf" },
