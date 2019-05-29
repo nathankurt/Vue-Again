@@ -3,5 +3,8 @@ import Vuetify from 'vuetify/lib'
 import 'vuetify/src/stylus/app.styl'
 
 Vue.use(Vuetify, {
-  iconfont: 'fab',
+  options: {
+    customProperties: true
+  },
+  iconfont: 'fa',
 })
