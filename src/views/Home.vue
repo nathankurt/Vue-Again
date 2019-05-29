@@ -1,8 +1,8 @@
 
 <template>
-  <div class="home">
-    <h1></h1>
-    <HelloWorld />
+  <div class="home justify-center" >
+    <h1>Hi There 👋</h1>
+    <img src="@/assets/natepic.png"/>
   </div>
 </template>
 
@@ -14,3 +14,9 @@
     }
   }
 </script>
+
+<style>
+  h1 {
+    text-align: center;
+  }
+</style>

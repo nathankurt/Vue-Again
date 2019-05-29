@@ -18,7 +18,7 @@
         </v-btn>
       </v-card-title>
 
-      <v-card-actions class="grey darken-3 justify-center">
+      <v-card-actions dark class="dark justify-center">
         &copy;2019 — <strong>Nate Kurt</strong>
       </v-card-actions>
     </v-card>

@@ -1,37 +1,15 @@
 <template>
     <div>
-        <p>Repositories grabbed: {{ repositoriesCount }}</p>
+        <HelloWorld />
     </div>
 
 
 </template>
 
 <script>
+    import HelloWorld from "@/components/HelloWorld.vue";
     export default {
-        data () {
-            return {
-                myGitHubData: {},
-                myRepoData: {}
-
-            }
-        },
-        mounted: function () {
-            this.GitHubAPI.get('/user/repos', {}, [this.myGitHubData, 'user'])
-            this.GitHubAPI.get('/user/repos', {}, [this.myRepoData, 'repositories'])
-            //this.GitHubAPI.get('/user/avatar_url', {}, [this.myGitHubData, 'avatar'])
-        },
-
-        props: {
-            //this.myGitHubData.user.avatar_url
-        },
-        computed: {
-            repositoriesCount: function () {
-                if (this.myRepoData.repositories) {
-                    return this.myRepoData.repositories.length
-                }
-                return 'none yet...'
-            }
-        }
+        components: {HelloWorld}
     }
 </script>
 
