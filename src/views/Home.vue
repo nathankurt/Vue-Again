@@ -19,4 +19,7 @@
   h1 {
     text-align: center;
   }
+  img {
+    padding: 2em;
+  }
 </style>

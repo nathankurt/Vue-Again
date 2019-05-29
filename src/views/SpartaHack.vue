@@ -1,9 +1,7 @@
 <template>
-    <div>
-    <h1>Hello</h1>
-    <v-img src="@/assets/natepic" contain></v-img>
-
-    </div>
+  <div>
+    <img src="@/assets/animated-logo.svg" height="400px" width="400px" />
+  </div>
 </template>
 
 <script>
