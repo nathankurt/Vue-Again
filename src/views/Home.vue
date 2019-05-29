@@ -1,7 +1,8 @@
 
 <template>
   <div class="home justify-center" >
-    <h1>Hi There 👋</h1>
+    <h1>Hi There, I'm Nate 👋</h1>
+    <h2>A software developer with a love for technology and solving problems</h2>
     <img src="@/assets/natepic.png"/>
   </div>
 </template>

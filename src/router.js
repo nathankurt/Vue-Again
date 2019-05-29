@@ -39,8 +39,14 @@ const router = new Router({
     {
       path: "/github",
       name: "github",
-      meta: { title: "Nate's GitHub" },
+      meta: { title: "Vuetify Reference" },
       component: () => import("./views/GitHub.vue")
+    },
+    {
+      path: "/404",
+      name: "404",
+      meta: { title: "Page Not Found" },
+      component: () => import("./views/404.vue")
     }
   ]
 });
