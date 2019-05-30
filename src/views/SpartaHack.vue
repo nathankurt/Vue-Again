@@ -7,13 +7,8 @@
     contain
     >
     </v-img>
-<<<<<<< HEAD
     <h1>Michigan State's Official Student Run Hackathon</h1>
     <Expansion v-bind:msg='msg1'/>
-=======
-    <h1>Michigan State's Student Run Hackathon</h1>
-    <TreeList v-bind:msg='msg'/>
->>>>>>> master
   </div>
 </template>
 
