@@ -21,9 +21,9 @@ import TreeList from "@/components/TreeList.vue";
       msg: [
       {
         id: 1,
-        name: "Apps :",
+        name: "What is SpartaHack?",
         children: [
-          { id: 2, name: "Calendar : app" },
+          { id: 2, name: "SpartaHack is a student run coding marathon that encourages you " },
           { id: 3, name: "Chrome : app" },
           { id: 4, name: "Webstorm : app" }
         ]
