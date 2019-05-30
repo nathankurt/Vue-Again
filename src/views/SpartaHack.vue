@@ -1,6 +1,13 @@
 <template>
   <div>
-    <img src="@/assets/animated-logo.svg" height="400px" width="400px" />
+    
+    <v-img class="justify center"
+    :src="require('@/assets/animated-logo.svg')"
+    height="400"
+    contain
+    >
+    </v-img>
+    <h1>Michigan State's Official Student Run Hackathon</h1>
     <TreeList v-bind:msg='msg'/>
   </div>
 </template>

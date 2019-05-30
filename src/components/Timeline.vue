@@ -48,7 +48,7 @@ export default {
       },
       {
         color: 'indigo',
-        icon: 'mdi-buffer',
+        icon: 'fas fa-graduation-cap',
         text: '124 hello'
       }
     ]
