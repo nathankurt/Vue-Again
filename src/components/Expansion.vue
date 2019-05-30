@@ -1,5 +1,5 @@
 <template>
-    <v-expansion-panel inset flat dark>
+    <v-expansion-panel flat dark>
         <v-expansion-panel-content
         v-for="(item,i) in msg"
         :key="i"

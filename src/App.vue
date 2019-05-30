@@ -35,13 +35,11 @@
 <script>
 import Navbar from "@/components/Navbar";
 import VFooter from "@/components/VFooter";
-import TreeList from "@/components/TreeList"
 export default {
   name: "App",
   components: {
     Navbar,
     VFooter,
-    TreeList
   },
   data() {
     return {

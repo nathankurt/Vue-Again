@@ -29,7 +29,7 @@ export default {
       { text: "About Me", name: "about", route: "/about" },
       { text: "SpartaHack", name: "spartahack", route: "/spartahack" },
       { text: "Pro-Tips", name: "protips", route: "/protips" },
-      { text: "Vuetify Reference", name: "github", route: "/github" }
+    //   { text: "Vuetify Reference", name: "github", route: "/github" }
     ],
     icons: [
       { name: "fab fa-github", link: "https://github.com/nathankurt/Vue-Again" }

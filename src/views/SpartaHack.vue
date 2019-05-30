@@ -7,23 +7,22 @@
     contain
     >
     </v-img>
-    <h1>Michigan State's Official Student Run Hackathon</h1>
+    <span><h1>Michigan State's Official Student Run Hackathon</h1></span>
     <Expansion v-bind:msg='msg1'/>
   </div>
 </template>
 
 <script>
 import Expansion from "@/components/Expansion.vue";
-import TreeList from "@/components/TreeList.vue";
     export default {
-        components: {TreeList, Expansion},
+        components: {Expansion},
         name: "SpartaHack",
         data: () => ({
 
       msg1: [
           {
               title: "What is SpartaHack?",
-              text: "Spartahack is a student-run coding marathon that encourages you ",
+              text: "Spartahack is a student-run 48 hour coding marathon that encourages you to build a project from scratch and learn something new! Also you can earn a buttload of prizes if you're interested in that type of thing. 😏",
           },
           {
               title: "Who can join?",
