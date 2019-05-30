@@ -4,19 +4,11 @@
       <v-toolbar-title class="text-uppercase grey--text">
         <span class="font-weight-light">Nate Kurt</span>
       </v-toolbar-title>
-      <v-tabs
-      dark
-      flat 
-      >
-      <v-tab app dark flat v-for="link in links" :key="link.name" :to="link.route">
-          {{link.text}}
-      </v-tab>
-      <!-- <v-btn flat v-for="link in links" :key="link.name" router :to="link.route">
+      <v-btn flat v-for="link in links" :key="link.name" router :to="link.route">
         {{ link.text }}
-      </v-btn> -->
-      </v-tabs>
+      </v-btn>
       <v-spacer></v-spacer>
-      <!-- <v-btn
+      <v-btn
         v-for="icon in icons"
         :key="icon"
         class="mx-3"
@@ -24,7 +16,7 @@
         :href="icon.link"
       >
         <v-icon size="24px">{{ icon.name }}</v-icon>
-      </v-btn> -->
+      </v-btn>
     </v-toolbar>
   </nav>
 </template>
