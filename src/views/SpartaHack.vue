@@ -7,7 +7,7 @@
     contain
     >
     </v-img>
-    <h1>Michigan State's Official Student Run Hackathon</h1>
+    <h1>Michigan State's Student Run Hackathon</h1>
     <TreeList v-bind:msg='msg'/>
   </div>
 </template>
