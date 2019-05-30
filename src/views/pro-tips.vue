@@ -2,7 +2,7 @@
   <div class="left-align">
     <h1>Pro-Tips</h1>
 
-    <TreeList v-bind:msg="msg" />
+    <Expansion v-bind:msg="msg1" />
 
     <!-- <ul>
       <li>
@@ -44,9 +44,24 @@
 
 <script>
 import TreeList from "@/components/TreeList";
+import Expansion from "@/components/Expansion";
 export default {
-  components: { TreeList },
+  components: { TreeList, Expansion },
   data: () => ({
+      msg1: [
+        {
+            title: "Dreamweaver Alternatives",
+            text: "",
+        },
+        {
+            title: "GitHub Student Developer Pack (The Big One)",
+            text: "",
+        },
+        {
+            title: "Use SASS To Deal With CSS",
+            text: "",
+        },
+      ],
       msg: [
       {
         id: 1,

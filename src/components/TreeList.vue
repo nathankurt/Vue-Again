@@ -1,5 +1,5 @@
 <template>
-  <v-treeview v-model="tree" :items='msg' active></v-treeview>
+  <v-treeview class="trees" v-model="tree" :items='msg' active></v-treeview>
 </template>
 
 <script>
@@ -13,4 +13,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style>
+.v-treeview-node__content {
+    flex-grow: 0;
+}
+</style>
