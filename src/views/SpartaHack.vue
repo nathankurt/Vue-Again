@@ -7,7 +7,7 @@
       contain
     >
     </v-img>
-    <h1>Michigan State's Official Student Run Hackathon</h1>ß
+    <h1>Michigan State's Official Student Run Hackathon</h1>
     <Expansion v-bind:msg="msg1" />
   </div>
 </template>
