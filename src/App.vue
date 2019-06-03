@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <v-app dark>
+      <!-- <NavDraw v-bind:links="links" v-bind:sideNav="sideNav"/> -->
       <Navbar />
       <v-content>
         <v-container fluid fill-height>
@@ -29,7 +30,14 @@ export default {
   },
   data() {
     return {
-    
+    sideNav: false,
+    links: [
+      { text: "Home", name: "home", route: "/" },
+      { text: "About Me", name: "about", route: "/about" },
+      { text: "SpartaHack", name: "spartahack", route: "/spartahack" },
+      { text: "Pro-Tips", name: "protips", route: "/protips" },
+    //   { text: "Vuetify Reference", name: "github", route: "/github" }
+    ],
       
     };
   }

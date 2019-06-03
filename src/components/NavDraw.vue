@@ -1,11 +1,12 @@
 <template>
-  <v-navigation-drawer v-model="sideNav">
+  <v-navigation-drawer temporary v-model="sideNav">
         <v-list>
             <v-list-tile 
-            v-for="item in links"
-            :key="item.name"
-            :to="item.route">
+            v-for="link in links"
+            :key="link.name"
+            :to="link.route">
             >
+            {{link.text}}
             </v-list-tile>
 
         </v-list>
@@ -16,15 +17,10 @@
 
 <script>
 export default {
+  props: ["sideNav", "links"],
   data: () => ({
-    sideNav: false,
-    links: [
-      { text: "Home", name: "home", route: "/" },
-      { text: "About Me", name: "about", route: "/about" },
-      { text: "SpartaHack", name: "spartahack", route: "/spartahack" },
-      { text: "Pro-Tips", name: "protips", route: "/protips" },
-    //   { text: "Vuetify Reference", name: "github", route: "/github" }
-    ],
+    sideNav: sideNav,
+    links: links,
     icons: [
       { name: "fab fa-github", link: "https://github.com/nathankurt/Vue-Again" }
     ]
