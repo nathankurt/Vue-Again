@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <v-app dark>
-      <!-- <NavDraw v-bind:links="links" v-bind:sideNav="sideNav"/> -->
       <Navbar />
       <v-content>
         <v-container fluid fill-height>
@@ -18,7 +17,6 @@
 </template>
 
 <script>
-import NavDraw from "@/components/NavDraw";
 import Navbar from "@/components/Navbar";
 import VFooter from "@/components/VFooter";
 export default {
@@ -26,7 +24,6 @@ export default {
   components: {
     Navbar,
     VFooter,
-    NavDraw
   },
   data() {
     return {
