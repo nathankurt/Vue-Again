@@ -12,7 +12,7 @@ Vue.config.productionTip = false;
 //vuetify
 Vue.use(Vuetify, {
   theme: {
-    primary: "#2b7356",
+    primary: "#009688",
     secondary: "#732b48",
     accent: "#2b637c"
   }
