@@ -1,5 +1,4 @@
 import Vue from "vue";
-import './plugins/vuetify'
 import "./plugins/vuetify";
 import "@fortawesome/fontawesome-free/css/all.css";
 import App from "./App.vue";
@@ -11,13 +10,7 @@ Vue.use(VueResource);
 Vue.config.productionTip = false;
 
 //vuetify
-Vue.use(Vuetify, {
-  theme: {
-    primary: "#2b7356",
-    secondary: "#732b48",
-    accent: "#2b637c"
-  }
-});
+Vue.use(Vuetify, {});
 
 // Styles
 require("./styles/scss/main.scss");
