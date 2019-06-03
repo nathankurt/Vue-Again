@@ -1,15 +1,11 @@
 <template>
   <v-footer dark height="auto">
     <v-card class="flex" flat tile>
-      <v-card-title class="teal" >
-        <strong class="subheading">Social Media!</strong>
-
-        <v-spacer></v-spacer>
-
+      <v-card-title class="teal justify-center">
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-2"
+          class="mx-3"
           dark
           icon
           :href="icon.link"
