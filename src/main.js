@@ -8,9 +8,6 @@ import Vuetify from "vuetify";
 import VueResource from "vue-resource";
 Vue.use(VueResource);
 
-// import vue-github-api
-import GitHubAPI from "vue-github-api";
-Vue.use(GitHubAPI, { token: "4349722d64498f7a0a34dcabed4214317e516e98" });
 Vue.config.productionTip = false;
 
 //vuetify
@@ -24,7 +21,6 @@ Vue.use(Vuetify, {
 
 // Styles
 require("./styles/scss/main.scss");
-Vue.config.devtools = true;
 
 new Vue({
   router,
