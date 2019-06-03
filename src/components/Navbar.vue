@@ -3,8 +3,10 @@
     <v-navigation-drawer fixed temporary v-model="sideNav">
       <v-list>
         <v-list-tile v-for="link in links" :key="link.name" :to="link.route">
-          >
-          {{ link.text }}
+          <v-list-tile-action>
+            <v-icon>{{ link.icon }}</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>{{ link.text }}</v-list-tile-content>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
@@ -52,10 +54,25 @@ export default {
   data: () => ({
     sideNav: false,
     links: [
-      { text: "Home", name: "home", route: "/" },
-      { text: "About Me", name: "about", route: "/about" },
-      { text: "SpartaHack", name: "spartahack", route: "/spartahack" },
-      { text: "Pro-Tips", name: "protips", route: "/protips" }
+      { text: "Home", name: "home", route: "/", icon: "fas fa-home" },
+      {
+        text: "About Me",
+        name: "about",
+        route: "/about",
+        icon: "fas fa-clock"
+      },
+      {
+        text: "SpartaHack",
+        name: "spartahack",
+        route: "/spartahack",
+        icon: "fas fa-code"
+      },
+      {
+        text: "Pro-Tips",
+        name: "protips",
+        route: "/protips",
+        icon: "fas fa-chalkboard"
+      }
       //   { text: "Vuetify Reference", name: "github", route: "/github" }
     ],
     icons: [

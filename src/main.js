@@ -10,7 +10,13 @@ Vue.use(VueResource);
 Vue.config.productionTip = false;
 
 //vuetify
-Vue.use(Vuetify, {});
+Vue.use(Vuetify, {
+  theme: {
+    primary: "#2b7356",
+    secondary: "#732b48",
+    accent: "#2b637c"
+  }
+});
 
 // Styles
 require("./styles/scss/main.scss");
